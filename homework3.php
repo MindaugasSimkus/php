@@ -23,38 +23,26 @@
       </div>
       <div class="row">
         <div class="col-md-12">
+
             <?php 
-            
-            //suvesti i masyva troskinio sudeti:
-            //jautiena 250 g
-            //pupeles 500 g
-            //vanduo 500 g
-            //pomidorai 300 g 
-            //paprika 100 g
-
-            //1. parasyti funkcija, kuri atspausdintu visus elementus lenteleje.
-            //2. parasyti funkcija, kuri atspausdintu "Jautienos receptui mums reikes XXX gramu ZZZ, taip pat, XXX gramu ZZZ ..."
-            //3 parasyti funkcija, kuri suskaiciuotu kiek svers visi produktai.
-            //4. parasyti funkcija , kuri patikrintu ar vandens ne maziau nei pupeliu
-
             $troskinio_sudetis = [
             "Jautiena" => 250,
             "Pupelės" => 500,
             "Vanduo" => 500,
             "Pomidorai" => 300,
             "Paprika" => 100,
-            ];
-
-                  
+            "Druska" => 5,
+            "Sviestas" => 100,
+            "Pipirai" => 5,
+            "Zolelės" => 20,
+            "Bulvės" => 300,
+            ];       
+            //funkcijos
             ingridientu_lentele($troskinio_sudetis);
             recepto_aprasymas($troskinio_sudetis);
             protuktu_svoris($troskinio_sudetis);
             vandens_pupeliu_santykis($troskinio_sudetis);
-
-
             ?>
-
-            
 
         </div>
       </div>

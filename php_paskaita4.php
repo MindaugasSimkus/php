@@ -127,6 +127,8 @@
 
           $sudetys["Blynai"]["Pienas"] = "penki simtai";
 
+          $kava_labai_saldi = ($kava < $cukrus) ? true : false;
+
 
           ?>
 
